@@ -1,0 +1,96 @@
+ {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {background-color:antiquewhite;
+    font-family: 'Dosis', sans-serif;
+    margin: 1em;
+    align-content: center;
+}
+
+h1 { font-size:  6.854em;
+font-weight: normal;}
+h2 { font-size:  4.236em;
+font-weight: normal;}
+h3 { font-size:  2.618em;
+font-weight:bolder;}
+p  { font-size:  2em;
+}
+
+nav, li, ul {list-style-type: none;
+text-decoration: none;
+    align-content: center;
+    text-align: center;
+    
+
+}
+
+nav ul { letter-spacing: 2px;
+    display: inline-table;
+}
+
+blockquote {
+    font-size: 2.618em;
+}
+cite {
+font-size: 2.3em;
+}
+
+header {background-image: url("about600.jpg");
+}
+
+ul {
+    background-color: red;
+    margin: 2em;
+    display: flex;
+    padding: 10em
+    
+    
+}
+
+li {margin: 2em;
+    word-break: 1em;
+    list-style: none;
+}
+
+body > div > header,nav,p,footer,section,blockquote {
+    background: #E6C40C;
+    margin: -1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center; 
+    padding-left: 5em;
+    padding-right: 5em;
+    background-image: image()
+}
+
+body > div > header {
+    order: 2; 
+}
+body > div > nav { 
+    order: 1;
+    list-style: none;
+    margin-left: -1em;
+    margin-right: -1em;
+    background-color: #2BD7A9;
+
+}
+body > div > section{
+    order: 3;
+}
+body > div > footer { order: 4;
+}
+body > div {display: flex;
+    flex-flow: column;
+}
+
+.saul {padding-bottom: 5em;
+
+
+/---styling-of-boxes---/
+
+
