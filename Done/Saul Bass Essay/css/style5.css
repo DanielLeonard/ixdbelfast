@@ -1,4 +1,6 @@
- {
+
+
+{
     padding: 0;
     margin: 0;
     font-size: 100%;
@@ -7,7 +9,6 @@
 
 body {background-color:antiquewhite;
     font-family: 'Dosis', sans-serif;
-    margin: 1em;
     align-content: center;
 }
 
@@ -17,20 +18,10 @@ h2 { font-size:  4.236em;
 font-weight: normal;}
 h3 { font-size:  2.618em;
 font-weight:bolder;}
-p  { font-size:  2em;
+p  { font-size:  1em;
 }
 
-nav, li, ul {list-style-type: none;
-text-decoration: none;
-    align-content: center;
-    text-align: center;
-    
 
-}
-
-nav ul { letter-spacing: 2px;
-    display: inline-table;
-}
 
 blockquote {
     font-size: 2.618em;
@@ -42,23 +33,9 @@ font-size: 2.3em;
 header {background-image: url("about600.jpg");
 }
 
-ul {
-    background-color: red;
-    margin: 2em;
-    display: flex;
-    padding: 10em
-    
-    
-}
-
-li {margin: 2em;
-    word-break: 1em;
-    list-style: none;
-}
 
 body > div > header,nav,p,footer,section,blockquote {
     background: #E6C40C;
-    margin: -1em;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 20px;
@@ -74,8 +51,8 @@ body > div > header {
 body > div > nav { 
     order: 1;
     list-style: none;
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: 1em;
+    margin-right: 1em;
     background-color: #2BD7A9;
 
 }
@@ -88,9 +65,38 @@ body > div {display: flex;
     flex-flow: column;
 }
 
-.saul {padding-bottom: 5em;
+body > div > p { font-size: 0.2em;}
+
+.saul {padding-bottom: 5em;}
 
 
-/---styling-of-boxes---/
+.nav ul { list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
 
+.nav li { font-size:  1.2em;
+    line-height:  40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover { 
+    background-color: #005f5f
+}
+
+.nav a.active {
+    background-color:  #fff;
+    color: #444;
+    cursor: default;
+}
 
