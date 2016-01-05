@@ -8,11 +8,26 @@
 body
 {
     text-align: center;
-    background-image: image(url"MOI.jpg");
+    background-image: url(Dan.jpg); 
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.main {
+      display: box;
+      display: -moz-box;
+      display: -webkit-box;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+    }
+
+body > div {display: flex;
+    flex-flow: column;
+    border: 2px;
+    border-color: black;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    padding-right: 10em;
+    padding-left: 10em
+}
+header {background-image: url(Dan.jpg);
 }

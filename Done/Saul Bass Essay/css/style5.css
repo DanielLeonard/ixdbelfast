@@ -7,42 +7,51 @@
     line-height: 1em;
 }
 
-body {background-color:antiquewhite;
+body {background-color: aliceblue;
     font-family: 'Dosis', sans-serif;
     align-content: center;
+    color: black
+    
+    
 }
 
 h1 { font-size:  6.854em;
-font-weight: normal;}
+font-weight: normal;
+padding-left: 1em;
+padding-right: 1em;}
+
 h2 { font-size:  4.236em;
-font-weight: normal;}
+font-weight: normal;
+padding-left: 1em;
+padding-right: 1em;
+}
+
 h3 { font-size:  2.618em;
-font-weight:bolder;}
-p  { font-size:  1em;
+font-weight:normal;
+margin: -1px
+}
+p  { font-size: 1em;
+padding-left: 2em;
+padding-right: 2em;}
+
+cite { 
+    font-size:1.5em;
+    font-style: italic;}
+
+blockquote { 
+    font-size: 1.8em;      
 }
 
 
 
-blockquote {
-    font-size: 2.618em;
-}
-cite {
-font-size: 2.3em;
-}
-
-header {background-image: url("about600.jpg");
-}
-
-
-body > div > header,nav,p,footer,section,blockquote {
-    background: #E6C40C;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 20px;
+body > div > header,nav,footer,section{
+    background-color:coral; 
+    padding: 1em;
+    margin-bottom: 7px;
     text-align: center; 
-    padding-left: 5em;
-    padding-right: 5em;
-    background-image: image()
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 body > div > header {
@@ -56,18 +65,31 @@ body > div > nav {
     background-color: #2BD7A9;
 
 }
-body > div > section{
-    order: 3;
-}
 body > div > footer { order: 4;
 }
 body > div {display: flex;
     flex-flow: column;
+    border: 2px;
+    border-color: black;
 }
 
-body > div > p { font-size: 0.2em;}
+body > div > section {
+padding: 1em;
+}
 
-.saul {padding-bottom: 5em;}
+.saul {
+    opacity: 0.9;
+    padding-bottom: 1em
+}
+.logo {height: 400px;
+width: 500px;}
+.alcoa {height: 400px;
+width: 500px;}
+.subheader {margin-top: -1em;}
+.title { margin: -1em;
+height: 400px;
+align-content: center;
+}
 
 
 .nav ul { list-style: none;
@@ -91,7 +113,7 @@ body > div > p { font-size: 0.2em;}
 }
 
 .nav a:hover { 
-    background-color: #005f5f
+    background-color:darkorange;
 }
 
 .nav a.active {
@@ -99,4 +121,5 @@ body > div > p { font-size: 0.2em;}
     color: #444;
     cursor: default;
 }
+
 
