@@ -8,19 +8,19 @@
 }
 
 body {background-color: aliceblue;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Gudea', sans-serif;
     align-content: center;
     color: black
     
     
 }
 
-h1 { font-size:  6.854em;
+h1 { font-size:  6em;
 font-weight: normal;
 padding-left: 1em;
 padding-right: 1em;}
 
-h2 { font-size:  4.236em;
+h2 { font-size:  3em;
 font-weight: normal;
 padding-left: 1em;
 padding-right: 1em;
@@ -36,16 +36,17 @@ padding-right: 2em;}
 
 cite { 
     font-size:1.5em;
-    font-style: italic;}
+    font-style: italic;
+ padding-top: ;}
 
 blockquote { 
-    font-size: 1.8em;      
+    font-size: 1.8em;
 }
 
 
 
 body > div > header,nav,footer,section{
-    background-color:coral; 
+    background-color: #FF7F00; 
     padding: 1em;
     margin-bottom: 7px;
     text-align: center; 
@@ -79,16 +80,20 @@ padding: 1em;
 
 .saul {
     opacity: 0.9;
-    padding-bottom: 1em
+    padding-bottom: 1em;
+    width: 500px;
+    height: 300px;
 }
 .logo {height: 400px;
 width: 500px;}
 .alcoa {height: 400px;
 width: 500px;}
 .subheader {margin-top: -1em;}
-.title { margin: -1em;
-height: 400px;
+.title { margin-top: -1em;
+margin-left: -1em;
 align-content: center;
+    height: 300px;
+    width: 500px;
 }
 
 
@@ -113,7 +118,7 @@ align-content: center;
 }
 
 .nav a:hover { 
-    background-color:darkorange;
+    background-color:#00C3FF;
 }
 
 .nav a.active {

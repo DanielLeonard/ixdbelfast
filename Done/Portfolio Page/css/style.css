@@ -8,17 +8,10 @@
 body
 {
     text-align: center;
-    background-image: url(Dan.jpg); 
+    background-color: antiquewhite
 }
 
-.main {
-      display: box;
-      display: -moz-box;
-      display: -webkit-box;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-    }
+
 
 body > div {display: flex;
     flex-flow: column;
@@ -29,5 +22,8 @@ body > div {display: flex;
     padding-right: 10em;
     padding-left: 10em
 }
-header {background-image: url(Dan.jpg);
+header {background: red;
+    padding:1em;
+    background-image: url(
+    
 }
