@@ -81,8 +81,8 @@ padding: 1em;
 .saul {
     opacity: 0.9;
     padding-bottom: 1em;
-    width: 500px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 .logo {height: 400px;
 width: 500px;}
@@ -127,4 +127,5 @@ align-content: center;
     cursor: default;
 }
 
-
+img {max-width: 100%;
+    height: auto;
