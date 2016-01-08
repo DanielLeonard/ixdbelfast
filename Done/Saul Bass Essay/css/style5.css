@@ -10,20 +10,20 @@
 body {background-color: aliceblue;
     font-family: 'Gudea', sans-serif;
     align-content: center;
-    color: black
-    
-    
+    color: black  
 }
 
 h1 { font-size:  6em;
 font-weight: normal;
 padding-left: 1em;
-padding-right: 1em;}
+padding-right: 1em;
+}
 
 h2 { font-size:  3em;
 font-weight: normal;
 padding-left: 1em;
 padding-right: 1em;
+
 }
 
 h3 { font-size:  2.618em;
@@ -90,10 +90,9 @@ width: 500px;}
 width: 500px;}
 .subheader {margin-top: -1em;}
 .title { margin-top: -1em;
-margin-left: -1em;
 align-content: center;
-    height: 300px;
-    width: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -127,5 +126,4 @@ align-content: center;
     cursor: default;
 }
 
-img {max-width: 100%;
-    height: auto;
+
