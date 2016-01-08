@@ -1,0 +1,91 @@
+.v1 body
+{
+    width: 80%;
+    max-width: 650px;
+    min-height: 300px;
+    margin: auto;
+    color: black;
+    line-height: 1.5em;
+    font-size: 80%;
+    font-weight: 200;
+    text-align: left;
+    color: black;
+    font-weight: lighter;
+    line-height: 0em;
+    padding: -0.5em 0 1em 0;
+    font-family: 'Libre Baskerville', 'serif';
+}
+.intro{ font-size: 100%;
+    line-height: 1.8em;
+}
+v1.hr{ 
+   color:red;
+    border: 1px solid;
+}
+
+.v1 h1{ font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom:
+    font-family: 'Libre Baskerville', 'serif';
+}
+.v1 h2{ 
+    font-size: 1.9em;
+    margin-top: -2em
+}
+.v1 h3{
+    font-size: 1.2em;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+
+
+p.introduction:first-letter {
+ font-size : 5.5em;
+ font-weight : bold;
+ float : left;
+ width : 0.8em;
+ padding-top: 0.007em;
+ padding-bottom: 0.007em;
+ line-height: 60px;
+    
+ }
+
+.v2 p+p+p {text-indent: 1.5em;}
+.v2 p+p {margin-bottom: -1em;}
+
+.v3 body {width: 80%;
+    max-width: 650px;
+    min-height: 300px;
+    margin: auto;
+    color: black;
+    line-height: 1.5em;
+    font-size: 80%;
+    font-weight: 200;
+    text-align: left;
+    color: black;
+    font-weight: lighter;
+    line-height: 0em;
+    padding: -0.5em 0 1em 0;
+    font-family: 'Open Sans', 'sans-serif';}
+.v3 h1 {font-family: 'Arvo', 'serif';}
+
+blockquote{
+			color:#888888;
+			padding: .5em 0;
+			font-size: 1.25em;
+			line-height: 1.5em;
+			margin: 0;
+			font-style: italic;
+			font-family: 'Libre Baskerville', 'serif';
+			font-weight: 300;
+            text-indent: -.4em;
+			}
+
+blockquote cite {
+				font-size: .75em;
+				}
+
+p{
+			font-family: 'Libre Baskerville'
+}
