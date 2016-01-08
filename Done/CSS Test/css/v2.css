@@ -1,48 +1,53 @@
 body {
   width: 60%;
-  margin: 0 auto;
-  font-family: "Open Sans", sans-serif; }
+  margin: auto;
+  font-family: "Open Sans", sans-serif; 
+}
 /*----Text----*/
 h1 {
-    font-size: 5em;
-    font-weight: 400;
+    font-size: 4.9em;
+    font-weight: normal;
     margin-top: -0.25em; }
 h2 {
     font-size: 2.25em;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-weight: normal;
     font-style: italic;
     margin-top: -2.25em; }
  h3 {
     font-size: 1.25em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: normal;
     margin-top: 4em; }
-/*----Para----*/
-p.top {
-    font-size: 1.25em;
-    line-height: 1.25em;
-    line-height: 1.5em; }
-p {
-    font-size: 1em;
-    font-weight: 400; }
+.john {
+    text-transform: uppercase;
+    font-weight: bold; }
 blockquote {
     display: block;
     float: left;
     margin-left: 0;
     font-style: italic;
-    color:dimgrey;
+    color: dimgrey;
     line-height: 1.5em;
     font-size: 1.25em; }
 cite {
     font-size: 0.75em;
     text-transform: uppercase;
     font-style: normal; }
+/*----Para----*/
+.top {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    line-height: 1.4em; }
+p {
+    font-size: 1em;
+    font-weight: normal; }
+
+
  hr {
     color: crimson; }
 .bottom {
     margin-top: -1em;
-    text-indent: 2em; }
-.john {
-    text-transform: uppercase;
-    font-weight: bold; }
+    text-indent: 2em; 
+}
+
