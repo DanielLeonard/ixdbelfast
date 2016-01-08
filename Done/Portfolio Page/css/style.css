@@ -5,25 +5,94 @@
     line-height: 1em;
 }
 
+/*-----Text-----*/
+h1  {font-size: 6em;}
+h2  {font-size: 3em;}
+h3  {font-size: 2.6em;}
+p {font-size: 1em;
+padding-left: 1em;
+padding-right: 1em;
+margin-left: 4em;
+margin-right: 4em;}
+/*-----styling-----*/
+
 body
 {
     text-align: center;
-    background-color: antiquewhite
+    background-color: White;
+    font-family: 'Roboto'
 }
 
 
 
 body > div {display: flex;
     flex-flow: column;
-    border: 2px;
-    border-color: black;
-    padding-top: 20em;
-    padding-bottom: 20em;
-    padding-right: 10em;
-    padding-left: 10em
-}
-header {background: red;
-    padding:1em;
-    background-image: url(
     
+    border-color: black;
+    background-color: antiquewhite;
+}
+.one
+ {
+     padding-bottom: 5em;
+     padding-top: 5em;
+     background-color: #29C4FF;
+}
+.two{ padding-bottom: 5em;
+     padding-top: 5em;
+     background-color: #CC2144;
+    color: black;
+    
+}
+
+header { background: #FFF210;
+padding-bottom: 8em;
+padding-top: 8em;
+color:black;}
+
+footer {padding-bottom: 5em;
+     padding-top: 5em;
+     background-color: black;
+    color: white;}
+
+a {color: aliceblue;
+text-decoration: none;
+    word-spacing: 1em;;
+}
+
+/*-----nav----*/
+body > div > nav {order: 2;}
+.nav ul { list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li { font-size:  1.2em;
+    line-height:  40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover { 
+    background-color:#00C3FF;
+}
+
+.nav a.active {
+    background-color:  #fff;
+    color: #444;
+    cursor: default;
+}
+
+/*--Images----*/
+
+img {width: 100%
+;
 }
