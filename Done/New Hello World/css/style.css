@@ -20,7 +20,7 @@ body
 {
     text-align: center;
     background-color: White;
-    font-family: 'Roboto';
+    font-family: 'Droid+SeriF';
     padding: 1
 }
 
@@ -37,6 +37,7 @@ body > div {display: flex;
      padding-bottom: 5em;
      padding-top: 5em;
      background-color: #29C4FF;
+     background-image: url("/images/Dan.jpg;");
 }
 .two{ padding-bottom: 5em;
      padding-top: 5em;
