@@ -11,5 +11,5 @@ Here is my Point Art.
 
 50 Point
 ========
-[Wallpaper](https://DanielLeonard.github.io/ixdbelfast/Done/Point/ 50 dot/1.jpg)
+[20](https://www.flickr.com/photos/136698258@N08/albums/72157658961832308)
 
