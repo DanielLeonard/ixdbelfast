@@ -6,9 +6,12 @@
 }
 
 /*-----Text-----*/
-h1  {font-size: 6em;}
-h2  {font-size: 3em;}
-h3  {font-size: 2.6em;}
+h1  {font-size: 6em;
+margin-top: 5px;}
+h2  {font-size: 3em;
+}
+h3  {font-size: 2.6em;
+margin-top: -0.5em;}
 p {font-size: 1em;
 padding-left: 1em;
 padding-right: 1em;
@@ -19,9 +22,10 @@ margin-right: 4em;}
 body
 {
     text-align: center;
-    background-color: White;
+    background-color: gold;
     font-family: 'Droid+SeriF';
     padding: 1
+        
 }
 
 
@@ -30,31 +34,33 @@ body > div {display: flex;
     flex-flow: column;
     
     border-color: black;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .one
  {
      padding-bottom: 5em;
      padding-top: 5em;
-     background-color: #29C4FF;
-     background-image: url("/images/Dan.jpg;");
+    
+     
 }
 .two{ padding-bottom: 5em;
      padding-top: 5em;
-     background-color: #CC2144;
     color: black;
+    
     
 }
 
-header { background: #FFF210;
+header { background: #29C4FF;
 padding-bottom: 8em;
 padding-top: 8em;
-color:black;}
+color:black;
+background: url(../images/Wallpaper%20.jpg) no-repeat center center fixed;}
 
 footer {padding-bottom: 5em;
      padding-top: 5em;
-     background-color: black;
-    color: white;}
+     background-color: #29C4FF;
+    color: black;
+}
 
 a {color: aliceblue;
 text-decoration: none;
@@ -98,6 +104,7 @@ text-decoration: none;
 
 img {width: 100%
 ;
+border: 5px solid: Yellow;
 }
 
 a:hover {color: #29C4FF}
